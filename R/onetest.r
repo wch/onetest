@@ -3,7 +3,7 @@ one_test <- function(){
   x <- as.POSIXct(Sys.time())
   cat("new[one_const] ", x[one_const], "\n")
   cat("new[one_fun()] ", x[one_fun()], "\n")
-  cat("new[one_s3()]  ", x[one_s3()],  "\n")
+  cat("new[one_s3(0)] ", x[one_s3(0)],  "\n")
   invisible()
 }
 
@@ -11,7 +11,7 @@ one_test <- function(){
 one_const <- 1
 
 #' @export
-one_fun <- function(x)  1
+one_fun <- function()  1
 
 
 #' @export
