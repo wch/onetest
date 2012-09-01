@@ -1,0 +1,12 @@
+Package: onetest
+License: GPL
+Author: 
+Maintainer: me <winston@stdout.org>
+Title: Test package for evaluation environment in [
+Type: Package
+Description: Test package
+Version: 1.0
+Depends:
+    R (>= 2.14)
+Collate:
+    'onetest.r'

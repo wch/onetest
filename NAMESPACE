@@ -1,0 +1,5 @@
+S3method(one_s3,default)
+export(one_const)
+export(one_fun)
+export(one_s3)
+export(one_test)
